@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Upgrade Studio — Black Excellence Web Upgrades</title>
+  <meta name="description" content="Premium AI-powered upgrades for your website. $200 flat. Modules include interactive demos: games, flows, canvases, tools, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: system fonts are fine; keeping this link-free from external CSS frameworks -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="bg">
+    <canvas id="stars"></canvas>
+    <div class="glow g1"></div>
+    <div class="glow g2"></div>
+    <div class="glow g3"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="AI Upgrade Studio home">
+      <span class="brandMark" aria-hidden="true"></span>
+      <span class="brandText">
+        <span class="kicker">AI Upgrade Studio</span>
+        <span class="sub">Black Excellence Web Upgrades</span>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="#modules">Modules</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#intake">Get started</a>
+    </nav>
+
+    <div class="ctaRow">
+      <button class="btn ghost" id="openDemosBtn" type="button">Open Demos</button>
+      <a class="btn primary" href="#pricing">Upgrade for $200</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="heroLeft">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>New-age website upgrades, engineered to convert</span>
+        </div>
+
+        <h1>
+          Turn your site into a <span class="gold">future-grade</span> platform
+          with <span class="neon">AI-powered upgrades</span>.
+        </h1>
+
+        <p class="lede">
+          You bring the website. I install an AI enhancement module that adds functionality, interactivity,
+          and automation—so your site looks and behaves like it’s from the next decade.
+        </p>
+
+        <div class="typeRow" aria-live="polite">
+          <span class="label">Live signal:</span>
+          <span id="typewriter" class="typewriter"></span>
+        </div>
+
+        <div class="heroCtas">
+          <a class="btn primary" href="#pricing">Upgrade for $200</a>
+          <a class="btn ghost" href="#modules">See the modules</a>
+        </div>
+
+        <div class="trust">
+          <div class="trustItem">
+            <span class="badge">Fast</span>
+            <span>Install-ready code + clean UX</span>
+          </div>
+          <div class="trustItem">
+            <span class="badge">Premium</span>
+            <span>Black & gold futuristic aesthetic</span>
+          </div>
+          <div class="trustItem">
+            <span class="badge">Practical</span>
+            <span>Built for creators, teams, and businesses</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="heroRight">
+        <div class="card terminalCard">
+          <div class="cardTop">
+            <span class="windowDot d1"></span><span class="windowDot d2"></span><span class="windowDot d3"></span>
+            <span class="cardTitle">Upgrade Console</span>
+          </div>
+          <pre id="terminal" class="terminal" aria-label="Live terminal demo"></pre>
+          <div class="terminalFoot">
+            <span class="hint">Tip:</span> Click any module to launch a live demo.
+          </div>
+        </div>
+
+        <div class="miniCards">
+          <div class="card mini">
+            <div class="miniTitle">Upgrade Outcome</div>
+            <div class="miniBig">More time saved</div>
+            <div class="miniSub">Less manual work, more automation.</div>
+          </div>
+          <div class="card mini">
+            <div class="miniTitle">Vibe</div>
+            <div class="miniBig">Black + Gold</div>
+            <div class="miniSub">Afro-futurist, vibrant, modern.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="modules" class="section">
+      <div class="sectionHead">
+        <h2>Upgrade Modules (Live Demos)</h2>
+        <p>These are “drop-in” features you can integrate into a website. Each one has a working demo below.</p>
+      </div>
+
+      <div class="grid">
+        <article class="module">
+          <div class="modTop">
+            <h3>1) Space Dogfight</h3>
+            <span class="tag">Canvas Game</span>
+          </div>
+          <p>Fly a ship, dodge asteroids, fight AI ships. Great as a hero background or engagement feature.</p>
+          <button class="btn small primary" data-open-demo="space" type="button">Launch Demo</button>
+        </article>
+
+        <article class="module">
+          <div class="modTop">
+            <h3>2) Employee Skills Matrix</h3>
+            <span class="tag">HR Tool</span>
+          </div>
+          <p>Editable skills grid with proficiency levels. Useful for teams, agencies, and internal portals.</p>
+          <button class="btn small primary" data-open-demo="matrix" type="button">Launch Demo</button>
+        </article>
+
+        <article class="module">
+          <div class="modTop">
+            <h3>3) Cloud Painter</h3>
+            <span class="tag">Kids + Fun</span>
+          </div>
+          <p>Paint clouds with brushes, watch drift, fly planes, and save the art. Great for interactive landing pages.</p>
+          <button class="btn small primary" data-open-demo="cloud" type="button">Launch Demo</button>
+        </article>
+
+        <article class="module">
+          <div class="modTop">
+            <h3>4) Customer Journey Flow</h3>
+            <span class="tag">Diagram UI</span>
+          </div>
+          <p>Drag stages, connect them, edit names. Perfect for marketing agencies and onboarding experiences.</p>
+          <button class="btn small primary" data-open-demo="journey" type="button">Launch Demo</button>
+        </article>
+
+        <article class="module">
+          <div class="modTop">
+            <h3>5) Weather Theatre</h3>
+            <span class="tag">React-style Canvas</span>
+          </div>
+          <p>Sliders remix the same forecast into stage sets (cosy/eerie/heroic). Parallax + curtain reveal.</p>
+          <button class="btn small primary" data-open-demo="theatre" type="button">Launch Demo</button>
+        </article>
+
+        <article class="module">
+          <div class="modTop">
+            <h3>6) Brutalist Dev Landing</h3>
+            <span class="tag">Product Page</span>
+          </div>
+          <p>Monochrome, 12-col grid, outlines, code tabs, pricing modal, invert toggle, terminal typing demo.</p>
+          <button class="btn small primary" data-open-demo="brutal" type="button">Launch Demo</button>
+        </article>
+
+        <article class="module">
+          <div class="modTop">
+            <h3>7) Virtual Drum Kit</h3>
+            <span class="tag">Audio UX</span>
+          </div>
+          <p>Tap pads or use keys. Record + playback. Great for music brands and interactive promo pages.</p>
+          <button class="btn small primary" data-open-demo="drums" type="button">Launch Demo</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="sectionHead">
+        <h2>How it works</h2>
+        <p>A clean, repeatable workflow that scales.</p>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <div class="stepNum">01</div>
+          <div class="stepBody">
+            <div class="stepTitle">Choose a module</div>
+            <div class="stepText">Pick one of the upgrades (or describe your own). You’ll see a live demo first.</div>
+          </div>
+        </li>
+        <li>
+          <div class="stepNum">02</div>
+          <div class="stepBody">
+            <div class="stepTitle">Pay the flat $200</div>
+            <div class="stepText">Use Stripe/PayPal link. You’ll be redirected back to the intake form.</div>
+          </div>
+        </li>
+        <li>
+          <div class="stepNum">03</div>
+          <div class="stepBody">
+            <div class="stepTitle">Submit your website details</div>
+            <div class="stepText">Share your URL, goal, and where you want the upgrade installed.</div>
+          </div>
+        </li>
+        <li>
+          <div class="stepNum">04</div>
+          <div class="stepBody">
+            <div class="stepTitle">Install + polish</div>
+            <div class="stepText">You get an integration-ready snippet + styling aligned to your brand.</div>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="sectionHead">
+        <h2>Pricing</h2>
+        <p>One premium upgrade module. Flat price. No confusion.</p>
+      </div>
+
+      <div class="pricing">
+        <div class="priceCard">
+          <div class="priceTop">
+            <h3>AI Upgrade (Single Module)</h3>
+            <div class="price">$200</div>
+          </div>
+          <ul class="list">
+            <li>One module installed (from the demos or custom spec)</li>
+            <li>Brand-aligned styling (black excellence / vibrant option)</li>
+            <li>Mobile-first UX</li>
+            <li>Clean code delivery + instructions</li>
+          </ul>
+
+          <div class="payRow">
+            <!-- Replace href with your Stripe Payment Link or PayPal.me link -->
+            <a class="btn primary wide" id="payLink" href="#" target="_blank" rel="noopener">Pay $200 (add your link)</a>
+            <button class="btn ghost wide" id="openIntakeBtn" type="button">Open Intake</button>
+          </div>
+
+          <p class="micro">
+            You control payments. Paste your Stripe Payment Link into <code>app.js</code> (PAYMENT_LINK).
+          </p>
+        </div>
+
+        <div class="priceCard highlight">
+          <div class="priceTop">
+            <h3>Best for</h3>
+            <div class="price">Creators & Businesses</div>
+          </div>
+          <ul class="list">
+            <li>Landing pages that need “wow” factor</li>
+            <li>Tools that increase engagement & trust</li>
+            <li>Interactive features that feel premium</li>
+            <li>Automations you can scale later</li>
+          </ul>
+          <div class="note">
+            Want multiple modules? Duplicate the checkout link per module or create a “bundle” link.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intake" class="section">
+      <div class="sectionHead">
+        <h2>Upgrade Intake</h2>
+        <p>Fill this out after payment. You’ll get a clean summary you can copy/send.</p>
+      </div>
+
+      <form id="intakeForm" class="form" autocomplete="on">
+        <div class="row">
+          <label>
+            <span>Website URL</span>
+            <input name="url" type="url" placeholder="https://your-site.com" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" placeholder="you@email.com" required />
+          </label>
+        </div>
+
+        <div class="row">
+          <label>
+            <span>Choose Module</span>
+            <select name="module" required>
+              <option value="Space Dogfight">Space Dogfight</option>
+              <option value="Employee Skills Matrix">Employee Skills Matrix</option>
+              <option value="Cloud Painter">Cloud Painter</option>
+              <option value="Customer Journey Flow">Customer Journey Flow</option>
+              <option value="Weather Theatre">Weather Theatre</option>
+              <option value="Brutalist Dev Landing">Brutalist Dev Landing</option>
+              <option value="Virtual Drum Kit">Virtual Drum Kit</option>
+              <option value="Custom">Custom (describe below)</option>
+            </select>
+          </label>
+
+          <label>
+            <span>Where should it live?</span>
+            <select name="placement" required>
+              <option value="Home page hero">Home page hero</option>
+              <option value="New page">New page</option>
+              <option value="Inside dashboard">Inside dashboard</option>
+              <option value="Embed section">Embed section</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          <span>Goal (what should this upgrade accomplish?)</span>
+          <textarea name="goal" rows="4" placeholder="Example: Increase engagement, capture leads, add interactive value, automate a workflow..." required></textarea>
+        </label>
+
+        <label>
+          <span>Brand notes (colors, vibe, fonts)</span>
+          <textarea name="brand" rows="3" placeholder="Example: Black + gold with electric accents, bold type, luxury futuristic..."></textarea>
+        </label>
+
+        <div class="row">
+          <button class="btn primary" type="submit">Generate Summary</button>
+          <button class="btn ghost" id="copySummaryBtn" type="button">Copy Summary</button>
+        </div>
+
+        <div class="summary">
+          <div class="summaryTop">
+            <h3>Submission Summary</h3>
+            <span class="tag">Copy & send</span>
+          </div>
+          <pre id="summaryText" class="summaryText">(Your summary will appear here.)</pre>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footGrid">
+        <div>
+          <div class="footTitle">AI Upgrade Studio</div>
+          <p class="footText">Future-grade upgrades for websites that want to feel alive.</p>
+        </div>
+
+        <div>
+          <div class="footTitle">Site</div>
+          <a href="#modules">Modules</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#intake">Get started</a>
+        </div>
+
+        <div>
+          <div class="footTitle">Actions</div>
+          <button class="linkBtn" id="openDemosBtn2" type="button">Open demos</button>
+          <button class="linkBtn" id="openIntakeBtn2" type="button">Open intake</button>
+        </div>
+
+        <div>
+          <div class="footTitle">Social</div>
+          <a href="#" aria-label="Add your social link">Instagram</a>
+          <a href="#" aria-label="Add your social link">YouTube</a>
+          <a href="#" aria-label="Add your social link">X</a>
+        </div>
+      </div>
+
+      <div class="footLine">
+        <span>© <span id="year"></span> AI Upgrade Studio</span>
+        <span class="micro">Built to run on GitHub Pages (no backend required).</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- DEMO MODAL -->
+  <div class="modal" id="demoModal" aria-hidden="true" role="dialog" aria-label="Demo modal">
+    <div class="modalOverlay" data-close-modal></div>
+    <div class="modalPanel" role="document">
+      <div class="modalTop">
+        <div>
+          <div class="modalTitle" id="demoTitle">Demo</div>
+          <div class="modalSub" id="demoSub">Interactive module preview</div>
+        </div>
+        <button class="iconBtn" data-close-modal aria-label="Close demo" type="button">✕</button>
+      </div>
+
+      <div class="modalBody">
+        <div class="demoWrap">
+          <!-- dynamic demo content -->
+          <div id="demoMount"></div>
+        </div>
+        <div class="demoHints" id="demoHints"></div>
+      </div>
+
+      <div class="modalFoot">
+        <button class="btn ghost" data-close-modal type="button">Close</button>
+        <a class="btn primary" href="#pricing" id="modalCta">Upgrade for $200</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
